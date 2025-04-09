@@ -1,0 +1,11 @@
+{
+  "serverID": "HB-WUHAN-001",
+  "dbHost": "127.0.0.1",
+  "dbUser": "SECMNG",
+  "dbPasswd": "SECMNG",
+  "dbdatabase": "SECMNG",
+  "dbport": 3306,
+  "port": 8080,
+  "maxnode": 20,
+  "shmkey": "/home/bin"
+}
