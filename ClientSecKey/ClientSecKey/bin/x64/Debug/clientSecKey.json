@@ -1,0 +1,8 @@
+{
+  "clientID": "",
+  "serverID": "HB-WUHAN-001",
+  "serverIP": "192.168.74.128",
+  "serverPort": 8080,
+  "maxNode": 1,
+  "shmKey": "/usr/local/bin"
+}
