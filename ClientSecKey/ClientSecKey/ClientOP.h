@@ -37,6 +37,8 @@ public:
 	//文件数据接收
 	bool recvData();
 
+	string getClientId();
+
 
 private:
 	ClientInfo m_info;
