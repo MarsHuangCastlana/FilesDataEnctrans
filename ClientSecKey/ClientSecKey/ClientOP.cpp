@@ -708,5 +708,8 @@ bool ClientOP::recvData()
 	return true;
 }
 
-
+string ClientOP::getClientId()
+{
+	return m_info.ClientID;
+}
 
