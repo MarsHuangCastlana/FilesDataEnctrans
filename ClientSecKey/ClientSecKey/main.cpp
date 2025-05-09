@@ -3,14 +3,14 @@
 #include "ClientOP.h"
 using namespace std;
 
-int usage();
+int usage(string s);
 int main()
 {
 	// 创建客户端操作类对象
 	ClientOP op("clientSecKey.json");
 	while (1)
 	{
-		int sel = usage();
+		int sel = usage(op.getClientId());
 		switch (sel)
 		{
 		case 1:
@@ -63,7 +63,7 @@ int usage()
 	printf("\n  /*     0.退出系统                                            */");
 	printf("\n  /*************************************************************/");
 	printf("\n  /*************************************************************/");
-	printf("\n\n  选择:");
+	printf("\n\n  选择<%s>:",s.c_str());
 
 	scanf("%d", &nSel);
 	while (getchar() != '\n');
